@@ -1,8 +1,73 @@
-<!DOCTYPE HTML>
-<html lang="zh">
+<!DOCTYPE html>
+<html>
+
 <head>
+    <meta charset="UTF-8" />
+    <title>Markdown.World</title>
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <style>
+        .navbar {
+            background: #33363b;
+        }
+
+        .navbar-brand {
+            color: #7ebc59;
+        }
+
+        .navbar-content a {
+            color: #7ebc59;
+        }
+
+        .content-wrapper {
+            background: #eaeaea;
+            color: #368cbf;
+        }
+
+        .content-wrapper h3 {
+            margin: 0px;
+            padding: 50px;
+        }
+        .custom-footer {
+            background: #33363b;
+            margin-top: 30px;
+            height: 60px;
+        }
+    </style>
 </head>
+
 <body>
-<h1>Hello world</h1>
+    <div class="page-wrapper with-navbar">
+        <nav class="navbar">
+            <a href="index.html" class="navbar-brand">Home</a>
+            <div class="navbar-content ml-auto">
+                <a href="https://github.com/markdown-world/">GitHub</a>
+            </div>
+        </nav>
+        <div class="content-wrapper" style="text-align: center;">
+            <img src="./images/all_markdown_world.png" width="700px;" />
+            <h3>Constructing knowledge world with All Markdown</h3>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm">
+                        <h4>Concepts and Specifications</h4>
+                        <img src="./images/spec.png" height="200px"/>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Project: Wiki</h4>
+                        <img src="./images/wiki.png" height="200px"/>
+                    </div>
+                    <div class="col-sm">
+                        <h4>Project: Book</h4>
+                        <img src="./images/book.png" height="200px"/>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-footer">
+
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
